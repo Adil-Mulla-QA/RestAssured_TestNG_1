@@ -1,0 +1,8 @@
+Endpoint : https://reqres.in/api/users
+
+Request Body :{
+    "name": "AADiL",
+    "job": "QA Lead"
+}
+
+Response Body : {"name":"AADiL","job":"QA Lead","id":"344","createdAt":"2024-03-07T11:03:10.571Z"}

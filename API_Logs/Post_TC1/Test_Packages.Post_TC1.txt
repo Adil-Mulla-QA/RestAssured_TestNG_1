@@ -1,0 +1,8 @@
+Endpoint : https://reqres.in/api/users
+
+Request Body :{
+    "name": "morpheus",
+    "job": "leader"
+}
+
+Response Body : {"name":"morpheus","job":"leader","id":"243","createdAt":"2024-03-07T11:03:08.384Z"}

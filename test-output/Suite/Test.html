@@ -1,0 +1,250 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>34/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 07 02:28:23 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>30 seconds (30890 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test_Packages.Post_TC5_Data_Provider.Executor()'><b>Executor</b><br>Test class: Test_Packages.Post_TC5_Data_Provider<br>Parameters: Aadil, QA</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Post_TC5_Data_Provider@5a5a729f</td></tr>
+<tr>
+<td title='Test_Packages.Post_TC2.Executor()'><b>Executor</b><br>Test class: Test_Packages.Post_TC2<br>Test method: :::Executing Post API & Validationg Response Body::::::::::::::</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Post_TC2@33ecda92</td></tr>
+<tr>
+<td title='Test_Packages.Post_TC5_Data_Provider.Executor()'><b>Executor</b><br>Test class: Test_Packages.Post_TC5_Data_Provider<br>Parameters: XYZ, Manager</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Post_TC5_Data_Provider@5a5a729f</td></tr>
+<tr>
+<td title='Test_Packages.Get_TC_Single_User.Executor()'><b>Executor</b><br>Test class: Test_Packages.Get_TC_Single_User</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Get_TC_Single_User@4d14b6c2</td></tr>
+<tr>
+<td title='Test_Packages.Get_TC3.Executor()'><b>Executor</b><br>Test class: Test_Packages.Get_TC3</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Get_TC3@4d15107f</td></tr>
+<tr>
+<td title='Test_Packages.Put_TC4.Executor()'><b>Executor</b><br>Test class: Test_Packages.Put_TC4</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Put_TC4@333d4a8c</td></tr>
+<tr>
+<td title='Test_Packages.Get_TC_list.Executor()'><b>Executor</b><br>Test class: Test_Packages.Get_TC_list</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Get_TC_list@7e990ed7</td></tr>
+<tr>
+<td title='Test_Packages.DD_Post_TC2.Executor()'><b>Executor</b><br>Test class: Test_Packages.DD_Post_TC2</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.DD_Post_TC2@60f00693</td></tr>
+<tr>
+<td title='Test_Packages.Put_TC3.Executor()'><b>Executor</b><br>Test class: Test_Packages.Put_TC3</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Put_TC3@1c742ed4</td></tr>
+<tr>
+<td title='Test_Packages.Get_TC1.Executor()'><b>Executor</b><br>Test class: Test_Packages.Get_TC1</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Get_TC1@c05fddc</td></tr>
+<tr>
+<td title='Test_Packages.Post_TC6_Data_Provider.Executor()'><b>Executor</b><br>Test class: Test_Packages.Post_TC6_Data_Provider<br>Parameters: ABC, 000</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Post_TC6_Data_Provider@4b520ea8</td></tr>
+<tr>
+<td title='Test_Packages.Post_TC3.Executor()'><b>Executor</b><br>Test class: Test_Packages.Post_TC3<br>Test method: :::Executing Post API & Validationg Response Body::::::::::::::</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Post_TC3@14fc5f04</td></tr>
+<tr>
+<td title='Test_Packages.Post_TC1.Executor()'><b>Executor</b><br>Test class: Test_Packages.Post_TC1</td>
+<td></td>
+<td>5</td>
+<td>Test_Packages.Post_TC1@5c7933ad</td></tr>
+<tr>
+<td title='Test_Packages.Delete_TC.Executor()'><b>Executor</b><br>Test class: Test_Packages.Delete_TC</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Delete_TC@16150369</td></tr>
+<tr>
+<td title='Test_Packages.DD_Put_TC2.Executor()'><b>Executor</b><br>Test class: Test_Packages.DD_Put_TC2</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.DD_Put_TC2@7a6d7e92</td></tr>
+<tr>
+<td title='Test_Packages.Post_TC6_Data_Provider.Executor()'><b>Executor</b><br>Test class: Test_Packages.Post_TC6_Data_Provider<br>Parameters: XYZ, 222</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Post_TC6_Data_Provider@4b520ea8</td></tr>
+<tr>
+<td title='Test_Packages.Put_TC2.Executor()'><b>Executor</b><br>Test class: Test_Packages.Put_TC2</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Put_TC2@6a8658ff</td></tr>
+<tr>
+<td title='Test_Packages.Get_TC5.Executor()'><b>Executor</b><br>Test class: Test_Packages.Get_TC5</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Get_TC5@5884a914</td></tr>
+<tr>
+<td title='Test_Packages.DD_Post_TC1.Executor()'><b>Executor</b><br>Test class: Test_Packages.DD_Post_TC1</td>
+<td></td>
+<td>2</td>
+<td>Test_Packages.DD_Post_TC1@50378a4</td></tr>
+<tr>
+<td title='Test_Packages.Post_TC6_Data_Provider.Executor()'><b>Executor</b><br>Test class: Test_Packages.Post_TC6_Data_Provider<br>Parameters: PQR, 111</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Post_TC6_Data_Provider@4b520ea8</td></tr>
+<tr>
+<td title='Test_Packages.DD_Post_TC3.Executor()'><b>Executor</b><br>Test class: Test_Packages.DD_Post_TC3</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.DD_Post_TC3@79207381</td></tr>
+<tr>
+<td title='Test_Packages.Put_TC1.Executor()'><b>Executor</b><br>Test class: Test_Packages.Put_TC1</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Put_TC1@3feb2dda</td></tr>
+<tr>
+<td title='Test_Packages.Patch_TC3.Executor()'><b>Executor</b><br>Test class: Test_Packages.Patch_TC3</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Patch_TC3@30f842ca</td></tr>
+<tr>
+<td title='Test_Packages.Patch_TC4.Executor()'><b>Executor</b><br>Test class: Test_Packages.Patch_TC4</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Patch_TC4@69c81773</td></tr>
+<tr>
+<td title='Test_Packages.DD_Put_TC4.Executor()'><b>Executor</b><br>Test class: Test_Packages.DD_Put_TC4</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.DD_Put_TC4@97e93f1</td></tr>
+<tr>
+<td title='Test_Packages.DD_Put_TC1.Executor()'><b>Executor</b><br>Test class: Test_Packages.DD_Put_TC1</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.DD_Put_TC1@1a4927d6</td></tr>
+<tr>
+<td title='Test_Packages.Get_TC4.Executor()'><b>Executor</b><br>Test class: Test_Packages.Get_TC4</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Get_TC4@7b4c50bc</td></tr>
+<tr>
+<td title='Test_Packages.DD_Put_TC3.Executor()'><b>Executor</b><br>Test class: Test_Packages.DD_Put_TC3</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.DD_Put_TC3@aba625</td></tr>
+<tr>
+<td title='Test_Packages.Patch_TC2.Executor()'><b>Executor</b><br>Test class: Test_Packages.Patch_TC2</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Patch_TC2@dc7df28</td></tr>
+<tr>
+<td title='Test_Packages.Post_TC4.Executor()'><b>Executor</b><br>Test class: Test_Packages.Post_TC4<br>Test method: :::Executing Post API & Validationg Response Body::::::::::::::</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Post_TC4@6e2829c7</td></tr>
+<tr>
+<td title='Test_Packages.Patch_TC1.Executor()'><b>Executor</b><br>Test class: Test_Packages.Patch_TC1</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Patch_TC1@55de24cc</td></tr>
+<tr>
+<td title='Test_Packages.Get_TC2.Executor()'><b>Executor</b><br>Test class: Test_Packages.Get_TC2</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Get_TC2@25df00a0</td></tr>
+<tr>
+<td title='Test_Packages.Post_TC5_Data_Provider.Executor()'><b>Executor</b><br>Test class: Test_Packages.Post_TC5_Data_Provider<br>Parameters: morpheus, leader</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.Post_TC5_Data_Provider@5a5a729f</td></tr>
+<tr>
+<td title='Test_Packages.DD_Post_TC4.Executor()'><b>Executor</b><br>Test class: Test_Packages.DD_Post_TC4</td>
+<td></td>
+<td>0</td>
+<td>Test_Packages.DD_Post_TC4@491b9b8</td></tr>
+</table><p>
+</body>
+</html>

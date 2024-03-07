@@ -1,0 +1,8 @@
+Endpoint : https://reqres.in/api/users
+
+Request Body :{
+    "name": "BBB",
+    "job": "CEO"
+}
+
+Response Body : {"name":"BBB","job":"CEO","id":"858","createdAt":"2024-03-07T11:03:25.864Z"}

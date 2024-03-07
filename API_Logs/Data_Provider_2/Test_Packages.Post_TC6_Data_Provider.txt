@@ -1,0 +1,8 @@
+Endpoint : https://reqres.in/api/users
+
+Request Body :{
+    "name": "XYZ",
+    "job": "222"
+}
+
+Response Body : {"name":"XYZ","job":"222","id":"781","createdAt":"2024-03-07T11:03:35.200Z"}

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="18.29" tests="34" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\target\test-classes;C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\target\classes;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\admin\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\admin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\admin\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-scratchpad\5.2.5\poi-scratchpad-5.2.5.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-excelant\5.2.5\poi-excelant-5.2.5.jar;C:\Users\admin\.m2\repository\org\apache\ant\ant\1.10.14\ant-1.10.14.jar;C:\Users\admin\.m2\repository\org\apache\ant\ant-launcher\1.10.14\ant-launcher-1.10.14.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-examples\5.2.5\poi-examples-5.2.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire9812905869746995110\surefirebooter-20240307020713580_3.jar C:\Users\admin\AppData\Local\Temp\surefire9812905869746995110 2024-03-07T02-07-13_181-jvmRun1 surefire-20240307020713580_1tmp surefire_0-20240307020713580_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\target\test-classes;C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\target\classes;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\admin\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\admin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\admin\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-scratchpad\5.2.5\poi-scratchpad-5.2.5.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-excelant\5.2.5\poi-excelant-5.2.5.jar;C:\Users\admin\.m2\repository\org\apache\ant\ant\1.10.14\ant-1.10.14.jar;C:\Users\admin\.m2\repository\org\apache\ant\ant-launcher\1.10.14\ant-launcher-1.10.14.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-examples\5.2.5\poi-examples-5.2.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire9812905869746995110\surefirebooter-20240307020713580_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\App\db_home\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Report\allure-2.19.0\bin;C:\Users\admin\OneDrive\Desktop\Practice\Rest API\Video Game SDET\gradle-6.9.3\bin;C:\gradle-7.6\bin;C:\Program Files\Git\cmd;%JAVA_HOME%\bin;C:\Users\admin\OneDrive\Desktop\Practice\Rest API\Allure-Reports\allure-2.22.4\bin;C:\Program Files\Java\jdk-21;C:\Program Files\Java\jdk-18.0.2.1;C:\Apache\apache-maven-3.9.6\bin;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;C:\Users\admin\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="Executor" classname="Test_Packages.Post_TC3" time="6.042">
+    <system-out><![CDATA[C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Post_TC1 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Post_TC1 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Post_TC2 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Post_TC2 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Post_TC3 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Post_TC3 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Post_TC4 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Post_TC4 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Put_TC1 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Put_TC1 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Put_TC2 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Put_TC2 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Put_TC3 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Put_TC3 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Put_TC4 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\DD_Put_TC4 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Delete_TC : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Delete_TC : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Get_TC_List_User : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Get_TC_List_User : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Get_TC2 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Get_TC2 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Get_TC3 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Get_TC3 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Get_TC4 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Get_TC4 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Get_TC5 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Get_TC5 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Get_TC_Single_User : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Get_TC_Single_User : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Get_TC_List_User : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Get_TC_List_User : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Patch_TC1 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Patch_TC1 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Patch_TC2 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Patch_TC2 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Patch_TC3 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Patch_TC3 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Patch_TC4 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Patch_TC4 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Post_TC1 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Post_TC1 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Post_TC2 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Post_TC2 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Post_TC3 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Post_TC3 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Post_TC4 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Post_TC4 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Data_Provider_1 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Data_Provider_1 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Data_Provider_2 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Data_Provider_2 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Put_TC1 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Put_TC1 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Put_TC2 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Put_TC2 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Put_TC3 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Put_TC3 : -------- New Directorry Created -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Put_TC4 : -------- Existong Directorry Deleted -----
+C:\Users\admin\OneDrive\Desktop\Eclipse-Rest Assured\Final-RestAssured_TestNG_FrameWork\API_Logs\Put_TC4 : -------- New Directorry Created -----
+Status Code : 201
+Status Code : 201
+Status Code : 200
+Status Code : 201
+Status Code : 201
+## Test Completed 
+
+
+## Test Completed 
+
+
+## Test Completed 
+
+
+## Test Completed 
+
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Put_TC1" time="6.047"/>
+  <testcase name="Executor" classname="Test_Packages.Post_TC1" time="6.047"/>
+  <testcase name="Executor" classname="Test_Packages.Post_TC4" time="0.0"/>
+  <testcase name="Executor" classname="Test_Packages.Post_TC2" time="0.009">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Put_TC4" time="1.359">
+    <system-out><![CDATA[Status Code : 200
+Status Code : 200
+Status Code : 200
+Status Code : 200
+Status Code : 200
+## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Patch_TC2" time="0.103">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Put_TC2" time="0.025">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Put_TC3" time="0.029">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Patch_TC1" time="0.049">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Get_TC_Single_User" time="0.693">
+    <system-out><![CDATA[Status Code : 200
+Status Code : 200
+Status Code : 200
+Status Code : 200
+Status Code : 200
+## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Get_TC_list" time="0.032">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Get_TC1" time="0.059">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Patch_TC3" time="0.821">
+    <system-out><![CDATA[Status Code : 200
+Status Code : 200
+Status Code : 200
+## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Get_TC3" time="0.055">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Get_TC2" time="0.041">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Patch_TC4" time="0.031">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Get_TC4" time="0.024">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Get_TC5" time="0.246">
+    <system-out><![CDATA[Status Code : 200
+## Test Completed 
+
+
+]]></system-out>
+    <system-err><![CDATA[ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.DD_Post_TC4" time="2.455">
+    <system-out><![CDATA[Status Code : 201
+Status Code : 201
+Status Code : 201
+Status Code : 201
+Status Code : 200
+## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.DD_Post_TC1" time="0.129">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.DD_Post_TC2" time="0.074">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.DD_Post_TC3" time="0.022">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.DD_Put_TC1" time="0.028">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.DD_Put_TC2" time="1.097">
+    <system-out><![CDATA[Status Code : 200
+Status Code : 200
+Status Code : 201
+Status Code : 201
+Status Code : 200
+## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor[ABC, 000](1)" classname="Test_Packages.Post_TC6_Data_Provider" time="0.006">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor[PQR, 111](2)" classname="Test_Packages.Post_TC6_Data_Provider" time="0.845">
+    <system-out><![CDATA[Status Code : 201
+Status Code : 201
+## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor[XYZ, 222](3)" classname="Test_Packages.Post_TC6_Data_Provider" time="0.707">
+    <system-out><![CDATA[Status Code : 201
+Status Code : 201
+## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.DD_Put_TC3" time="0.118">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor[morpheus, leader](1)" classname="Test_Packages.Post_TC5_Data_Provider" time="0.133">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor[Aadil, QA](2)" classname="Test_Packages.Post_TC5_Data_Provider" time="0.135">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor[XYZ, Manager](3)" classname="Test_Packages.Post_TC5_Data_Provider" time="0.862">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.DD_Put_TC4" time="0.006">
+    <system-out><![CDATA[## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Executor" classname="Test_Packages.Delete_TC" time="0.391">
+    <system-out><![CDATA[Status Code : 204
+## Test Completed 
+
+
+]]></system-out>
+  </testcase>
+</testsuite>

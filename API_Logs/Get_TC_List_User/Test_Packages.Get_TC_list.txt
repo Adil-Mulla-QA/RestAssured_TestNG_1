@@ -1,0 +1,5 @@
+Endpoint : https://reqres.in/api/users?page=2
+
+Request Body :null
+
+Response Body : null
